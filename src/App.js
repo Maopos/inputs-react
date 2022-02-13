@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <form action="">
-        <h2>Tipos de Inputs</h2>
+          <h2>Tipos de Inputs</h2>
           <label htmlFor="">
             Text: <input type="text" />
           </label>
@@ -60,6 +60,17 @@ function App() {
           </label>
           <label htmlFor="">
             Range: <input type="range" />
+          </label>
+          <br />
+          <label htmlFor="input">
+            Select:{" "}
+            <select name="input" id="input">
+              <option value="">-- Selecciona --</option>
+              <option value="">React</option>
+              <option value="">Angular</option>
+              <option value="">Vue</option>
+              <option value="">Javascript</option>
+            </select>
           </label>
           <br />
           <label htmlFor="">
