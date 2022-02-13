@@ -62,6 +62,14 @@ function App() {
             Range: <input type="range" />
           </label>
           <br />
+          <label htmlFor="">
+            Reset: <input type="reset" />
+          </label>
+          <label htmlFor="">
+            Submit: <input type="submit" />
+          </label>
+          <p>---------------------------------------</p>
+          <h4>Etiquetas</h4>
           <label htmlFor="input">
             Select:{" "}
             <select name="input" id="input">
@@ -72,13 +80,12 @@ function App() {
               <option value="">Javascript</option>
             </select>
           </label>
+          <label htmlFor="">Text Area:</label>
+          <textarea name="" id="" cols="50" rows="5"></textarea>
+
           <br />
-          <label htmlFor="">
-            Reset: <input type="reset" />
-          </label>
-          <label htmlFor="">
-            Submit: <input type="submit" />
-          </label>
+          <br />
+          <br />
         </form>
       </header>
     </div>
